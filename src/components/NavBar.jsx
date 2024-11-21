@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import profilePic from '../assets/img/profile-pic.png';
+import pic2 from '../assets/img/pic2.jpg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
@@ -37,7 +38,7 @@ const NavBar = () => {
             <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
                 <Container>
                     <Navbar.Brand href="/" className="profile-pic-container">
-                        <img src={profilePic} alt="Logo" className="profile-pic"/>
+                        <img src={pic2} alt="Logo" className="profile-pic"/>
                     </Navbar.Brand>
 
                     <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -52,6 +53,13 @@ const NavBar = () => {
                                 onClick={() => onUpdateActiveLink('home')}
                             >
                                 Home
+                            </Nav.Link>
+                            <Nav.Link
+                                href="#experiences"
+                                className={activeLink === 'experiences' ? 'active navbar-link' : 'navbar-link'}
+                                onClick={() => onUpdateActiveLink('experiences')}
+                            >
+                                Experiences
                             </Nav.Link>
                             <Nav.Link
                                 href="#skills"

@@ -16,8 +16,8 @@ export const Projects = () => {
             imgUrl: projImg1
         },
         {
-            title: "Mapillary",
-            description: "A Node.js backend for GJ Map Solutions, enabling efficient data processing and management for geospatial data, built to handle large-scale datasets with high performance.",
+            title: "Code Nexus",
+            description: "A Backend system that compiles code across multiple languages by processing base64-encoded code strings. The platform leverages Docker to create isolated environments for each language, ensuring secure and efficient code execution. Future enhancements include integrating Kubernetes for container orchestration, Redis for caching, and NGINX for load balancing.",
             imgUrl: projImg2
         },
         {

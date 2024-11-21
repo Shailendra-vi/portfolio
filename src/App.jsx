@@ -6,12 +6,14 @@ import NavBar from './components/NavBar'
 import Skills from './components/Skills'
 import { Projects } from './components/Projects'
 import { Contact } from './components/Contact'
+import Experiences from './components/Experiences';
 
 function App() {
   return (
     <>
       <NavBar />
       <Banner />
+      <Experiences />
       <Skills />
       <Projects />
       <Contact />
