@@ -566,10 +566,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .proj-imgbx {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: relative;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  cursor: pointer;
 }
 
 .proj-imgbx::before {
@@ -584,6 +591,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .proj-imgbx:hover::before {
   height: 100%;
+}
+
+.project-image {
+  width: 100%;
+  height: 300px;
+  /* Fixed height for images */
+  object-fit: cover;
+  /* Ensures image scales proportionally to fill space */
+  border-radius: 8px 8px 0 0;
 }
 
 .proj-txtx {

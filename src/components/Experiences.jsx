@@ -27,16 +27,6 @@ const Experiences = () => {
 
     const experiences = [
         {
-            role: "React & Node Intern",
-            period: "Oct’ 2024 – Present",
-            company: "Meta Orange Digital",
-            responsibilities: [
-                "Developed scalable & reusable React functional components, optimizing performance and enhancing user experience.",
-                "Refined and debugged Node.js APIs, ensuring proper functionality and reliability.",
-                "Implemented Swagger for API documentation, improving clarity and developer collaboration."
-            ]
-        },
-        {
             role: "Software Developer",
             period: "Jan’ 2024 – Aug’ 2024",
             company: "E-Connect Solutions (GJ - Map Solutions)",
